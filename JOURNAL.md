@@ -33,4 +33,17 @@ This is how I designed my schematic for my ESP32 board that I want to be able to
 **Time spent this session: 5 hours**
 <hr>
 
-###
+### June 28 P2: Footprint Assignment and Beginning PCB Design
+After completing the schematic, I began with assigning footprints to all my symbols. \
+<img src="https://cdn.hackclub.com/019f149a-1e43-735c-adf0-e72ce1f2a6a1/paste-1782757071560.png" alt="Assign Footprints" style="max-width:500"> \
+The 10uF capacitor and led have a 0603 footprint, and the remaining capacitors, fuses, resistors have a 0402 footprint. I used the easyeda2kicad script to get footprints for buttons, the wroom module, ldo, and usb-c receptacle. I did a lot of research on which footprints to use for which components, and also measured my current devboards to see what they use. 
+
+I then began designing my PCB. \
+<img src="https://cdn.hackclub.com/019f149c-9d80-7a14-90fc-fcfe5756405d/paste-1782757234975.png" alt="PCB" style="max-height:500px"> \
+I made it so the wroom module and USB are on opposite ends of the PCB. The height of the pcb is the height of the header pins + the height of the wroom module except for the antenna, which hangs over the edge. \
+The components near the USB-C receptacle are the LED, USB ESD, LDO, Fuse, Diode, etc. All things that make sure the power doesn't blow up the chip. 
+
+I also began adding some of the traces for the header pins but then decided to wait until all the other important things were done.
+
+**Time spent this session: 2 hours**
+<hr>
