@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp32-vehicle-board.kicad_pro",
+    "filename": "esp32-breadboard-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -411,8 +411,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "esp32-vehicle-board.kicad_sch",
-        "name": "esp32-vehicle-board",
+        "filename": "esp32-breadboard-board.kicad_sch",
+        "name": "esp32-breadboard-board",
         "uuid": "e775903e-c2eb-40b7-aba5-14dc5f95329e"
       }
     ],
@@ -422,7 +422,7 @@
   "sheets": [
     [
       "e775903e-c2eb-40b7-aba5-14dc5f95329e",
-      "esp32-vehicle-board"
+      "esp32-breadboard-board"
     ]
   ],
   "text_variables": {},
