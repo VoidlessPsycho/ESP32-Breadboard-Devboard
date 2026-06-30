@@ -1,7 +1,7 @@
 # ESP32 Breadboard Devboard Journal
 
-**Total number of entries: 1** \
-**Total hours spent: 5 hours**
+**Total number of entries: 3** \
+**Total hours spent: 11 hours**
 
 ### June 28, 2026: Created Schematic
 Today, I wanted to make an ESP32 Devboard. I had previously had problems with ESP32 because all the modules I found were too wide to fit on a breadboard. This is why I decided to embark on creating my own ESP32 devboard that would fit on a breadboard.
@@ -46,4 +46,32 @@ The components near the USB-C receptacle are the LED, USB ESD, LDO, Fuse, Diode,
 I also began adding some of the traces for the header pins but then decided to wait until all the other important things were done.
 
 **Time spent this session: 2 hours**
+<hr>
+
+### June 29: Finishing PCB Design
+Today I finished designing the PCB.
+
+<img src="https://cdn.hackclub.com/019f19c6-0239-7bc1-84a9-02b9754b46d2/paste-1782843834245.png" alt="PCB" style="max-height:500px">
+
+First, I made sure all the components near the USB-C receptacle were connected. This included resistors, decoupling capacitors, ESD and LDO for power, etc.
+
+I then worked on the decoupling capacitors and resistors near the main microcontroller, which I had to put on the back side because there was no space on the front side near the pads. 
+
+I also had to use differential routing to route the USB data traces, and had to use vias to switch the sides of the data traces halfway through because of the location of their respective pads on the microcontroller. 
+
+After this, I routed all the header pins, making sure to keep them as compact as possible.
+
+I then routed the buttons, the BOOT (GPIO0) and EN (CHIP_PU) buttons, having to move around the header pin traces to be able to route them properly.
+
+Afterwards, I routed the 3.3v and 5v traces to the microcontroller, header pins, and other components. 
+
+After routing all the components, I had to use a ground plane fill to connect all the grounds. Some of the header pin grounds near the top weren't able to connect because of the density of the header pin traces. So I had to move up all the header pins on the right side to make space for a GND pin on top. 
+
+After checking DRC, I edited some of the footprints to eliminate bogus errors. I also had to use vias and traces to connect all the GND pads to the ground fill. 
+
+I fixed up the silkscreen by removing unnecessary silkscreens to make the board look nicer.
+
+To finish up, I need to improve the silkscreen and double check all the important components. 
+
+**Time spent this session: 4 hours**
 <hr>
