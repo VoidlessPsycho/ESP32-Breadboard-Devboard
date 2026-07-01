@@ -24,3 +24,4 @@ _autosave-*
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
+KiCad/esp32-breadboard-board/.history
