@@ -1,7 +1,7 @@
 # ESP32 Breadboard Devboard Journal
 
-**Total number of entries: 3** \
-**Total hours spent: 11 hours**
+**Total number of entries: 4** \
+**Total hours spent: 16 hours**
 
 ### June 28, 2026: Created Schematic
 Today, I wanted to make an ESP32 Devboard. I had previously had problems with ESP32 because all the modules I found were too wide to fit on a breadboard. This is why I decided to embark on creating my own ESP32 devboard that would fit on a breadboard.
@@ -74,4 +74,21 @@ I fixed up the silkscreen by removing unnecessary silkscreens to make the board 
 To finish up, I need to improve the silkscreen and double check all the important components. 
 
 **Time spent this session: 4 hours**
+<hr>
+
+### June 30: Final Touch Ups
+Today, I finished my devboard.
+
+<img src="https://cdn.hackclub.com/019f1bc4-65e7-7ddd-807b-8c8a0458047a/paste-1782877282813.png" alt="pcb" style="max-height:500px"> <img src="https://cdn.hackclub.com/019f1bc3-8506-71c9-912e-2b929190f20e/paste-1782877225173.png" alt="cad" style="max-height:500px">
+<img src="https://cdn.hackclub.com/019f1bd8-b408-7c3a-adf7-74402bd1167b/paste-1782878612908.png" alt="cad" style="max-width:500px">
+
+First, I assigned 3D models and LCSC part numbers to all the components using the [JLCPCB plugin](https://github.com/bouni/kicad-jlcpcb-tools) and the easyeda2kicad CLI tool. 
+
+Next, I fixed some of the 3D models that weren't positioned properly on the devboard, such as the USB-C receptacle and header pins.
+
+Afterwards, I worked on the silkscreen, labeling all the header pins and adding art to the back and front. I used Inkscape for the drawings.
+
+I then exported the production files to keep in my repo, and exported the 3D model to onshape for screenshots.
+
+**Time spent this session: 5 hours**
 <hr>
