@@ -1,7 +1,7 @@
 # ESP32 Breadboard Devboard Journal
 
-**Total number of entries: 4** \
-**Total hours spent: 16 hours**
+**Total number of entries: 5** \
+**Total hours spent: 20 hours**
 
 ### June 28, 2026: Created Schematic
 Today, I wanted to make an ESP32 Devboard. I had previously had problems with ESP32 because all the modules I found were too wide to fit on a breadboard. This is why I decided to embark on creating my own ESP32 devboard that would fit on a breadboard.
@@ -91,4 +91,15 @@ Afterwards, I worked on the silkscreen, labeling all the header pins and adding 
 I then exported the production files to keep in my repo, and exported the 3D model to onshape for screenshots.
 
 **Time spent this session: 5 hours**
+<hr>
+
+### June 30 P2: Bill of Materials
+I had to spend a while finding Basic components because I had earlier chosen Extended JLCPCB components.
+
+Things I had to change were SGM --> AMS LDO.
+Also the BOOT/Reset buttons had to change to a Basic version.
+
+Creating the BOM also took a while cause I got really confused.
+
+**Time spent this session: 4 hours**
 <hr>
